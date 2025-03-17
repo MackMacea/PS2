@@ -10,7 +10,7 @@ import java.nio.file.StandardOpenOption;
 
 public class GerenciadorNomesArq implements GerenciadorNomes {
 	private List<String> nomes = new ArrayList<String>();
-	Path path = Paths.get("D:\\PS2 pratica\\lab03\\src\\lab03\\nomes.txt");
+	Path path = Paths.get("/workspaces/PS2/lab03/bin/lab03/nomes.txt");
 	
 	//preenchendo lista
 	
